@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDo List</title>
+    <script src="toDoList.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>ToDo List</h1>
+    <select id="filter">
+        <option value="all">All</option>
+        <option value="finished">Finished tasks</option>
+        <option value="open">Open tasks</option>
+    </select>
+    <input type="text" id="inputNewTask" placeholder="Type your task here">
+    <button class="addTaskButton" id="addTaskButton">Add Task</button>
+    <ul class="toDoList" id="toDoList"></ul>
+
+
+</div>
+</body>
+</html>

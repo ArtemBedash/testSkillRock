@@ -1,0 +1,28 @@
+
+.container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.addTaskButton {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.toDoList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+
+
+}
+
+.deleteButton {
+   cursor: pointer;
+    margin-left: 10px
+}
